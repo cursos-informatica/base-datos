@@ -6,7 +6,13 @@
 docker run --name mysql-demo -e MYSQL_ROOT_PASSWORD=admin123 -p 3306:3306 -d mysql:8.0
 ```
 
-Conectarse a mysql a traves de la termina del docker
+- Conectarse a mysql a traves de la termina del docker
+Ingresar a la terminal presionando los ...
+
+<p align="center">
+<img src="img/lab01_img01.png" width="500">
+</p>
+
 ```
 mysql -u root -p
 ```
