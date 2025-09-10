@@ -2,16 +2,26 @@
 
 ## LABORATORIO 1 : Instalación de Gestor de base de datos
 - Instalación de un servidor linux en docker desktop
-
+```
 docker run --name mysql-demo -e MYSQL_ROOT_PASSWORD=admin123 -p 3306:3306 -d mysql:8.0
+```
+
+Conectarse a mysql a traves de la termina del docker
+```
+mysql -u root -p
+```
+Luego agregar la contraseña admin123
 
 - Creación de usuario para gestionar la bd de forma remota
-
-
+```
 CREATE USER 'demo'@'%' IDENTIFIED WITH mysql_native_password BY 'demo123';
-GRANT ALL PRIVILEGES ON *.* TO 'demo'@'%';
+```
+```
+GRANT ALL PRIVILEGES ON \*.\* TO 'demo'@'%';
+```
+```
 FLUSH PRIVILEGES;
-
+```
 
 - Instalar un front end y conectarse a la BD
 
