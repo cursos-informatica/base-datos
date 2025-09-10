@@ -1,10 +1,42 @@
 # LABORATORIOS DE BASE DE DATOS
 
 ## LABORATORIO 1 : Instalación de Gestor de base de datos
-- Instalación de Mysql Linux : 
-https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
-- Conexiónes de una BD.
+- Instalación de un servidor linux en docker desktop
+
+docker run --name mysql-demo -e MYSQL_ROOT_PASSWORD=admin123 -p 3306:3306 -d mysql:8.0
+
+- Creación de usuario para gestionar la bd de forma remota
+
+
+CREATE USER 'demo'@'%' IDENTIFIED WITH mysql_native_password BY 'demo123';
+GRANT ALL PRIVILEGES ON *.* TO 'demo'@'%';
+FLUSH PRIVILEGES;
+
+
+- Instalar un front end y conectarse a la BD
+
+🔹 1. MySQL Workbench (oficial de Oracle)
+
+https://dev.mysql.com/downloads/workbench/
+
+🔹 2. DBeaver (muy popular, open source)
+
+https://dbeaver.io/download/
+
+🔹 3. HeidiSQL (liviano y rápido)
+
+https://www.heidisql.com/download.php
+
+- Conexión al front end:
+
+ - Host: 127.0.0.1
+ - Port: 3306 (o el que expusiste en Docker).
+ - User: demo
+ - Password: demo123
+
+
+
 
 ## LABORATORIO 2 : Uso de base de datos
-- Ejercicio con0 SQL
+- Ejercicio con SQL
 https://conclase.net/mysql/curso/cap12
