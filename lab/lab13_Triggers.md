@@ -80,7 +80,6 @@ Crearemos un trigger AFTER INSERT.
 ```
 USE lab_triggers;
 
-DELIMITER //
 
 CREATE TRIGGER trg_alumno_insert
 AFTER INSERT ON alumnos
@@ -89,9 +88,7 @@ BEGIN
     INSERT INTO log_alumnos (id_alumno, nombre, fecha_registro)
     VALUES (NEW.id_alumno, NEW.nombre, NOW());
 END
-//
 
-DELIMITER ;
 ```
 
 ## 📝 5. Explicación del trigger (para la clase)
