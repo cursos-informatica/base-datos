@@ -1,0 +1,21 @@
+Fecha,ID_Producto,Producto,Precio_Unitario,Cantidad,Precio_Total,Sucursal
+2025-09-01,P001,Laptop Office,2990,1,2990,Santiago
+2025-09-02,P002,Mouse Inalámbrico,22.5,3,67.5,Concepción
+2025-09-03,P003,Teclado Slim,34.9,2,69.8,Valparaíso
+2025-09-04,P004,"Monitor 22""",139,1,139,Antofagasta
+2025-09-05,P005,Impresora Láser,180,1,180,Temuco
+2025-09-06,P006,SSD 240GB,39.99,3,119.97,Chillán
+2025-09-07,P007,Webcam 720p,25.5,2,51,Valdivia
+2025-09-08,P008,Audífonos Over-Ear,42,2,84,Santiago
+2025-09-09,P009,Silla de Oficina,155,1,155,Concepción
+2025-09-10,P010,Router Dual Band,69.9,2,139.8,Valparaíso
+2025-09-11,P011,"Tablet 7""",98,3,294,Temuco
+2025-09-12,P012,HDD 500GB,35,4,140,Santiago
+2025-09-13,P013,RAM 4GB DDR4,18.9,4,75.6,Antofagasta
+2025-09-14,P014,Bocinas Compactas,24.5,3,73.5,Chillán
+2025-09-15,P015,Smartband,49,2,98,Valdivia
+2025-09-16,P016,Cargador USB Dual,12.9,5,64.5,Santiago
+2025-09-17,P017,MicroSD 32GB,9.99,6,59.94,Concepción
+2025-09-18,P018,Laptop Gamer,1650,1,1650,Temuco
+2025-09-19,P019,Switch HDMI 4K,21,3,63,Valparaíso
+2025-09-20,P020,UPS 650VA,95,1,95,Antofagasta
